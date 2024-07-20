@@ -11,7 +11,12 @@ import objectRepo.PageElements;
 public class AlertStep extends BrowserLaunch{
 	
 	PageElements p = new PageElements(BrowserLaunch.driver);
-
+	
+	public void testBranch() {
+		System.out.println("test branch");
+	}
+	
+	
 	@Given("i enter my name")
 	public void i_enter_my_name() {
 		super.initializeBrowser();
